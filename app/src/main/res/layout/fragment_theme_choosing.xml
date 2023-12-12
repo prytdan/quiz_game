@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.fragments.themechoosing.ThemeChoosingFragment">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/materialTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_theme"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:padding="16dp"
+        android:rowCount="3"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/button_to_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextView2">
+
+        <ImageView
+            android:id="@+id/image_theme_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:contentDescription="@string/app_theme"
+            android:padding="8dp"
+            android:src="@drawable/background_1" />
+
+        <ImageView
+            android:id="@+id/image_theme_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:contentDescription="@string/app_theme"
+            android:padding="8dp"
+            android:src="@drawable/background_2" />
+
+        <ImageView
+            android:id="@+id/image_theme_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:contentDescription="@string/app_theme"
+            android:padding="8dp"
+            android:src="@drawable/background_3" />
+
+        <ImageView
+            android:id="@+id/image_theme_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:contentDescription="@string/app_theme"
+            android:padding="8dp"
+            android:src="@drawable/background_4" />
+
+        <ImageView
+            android:id="@+id/image_theme_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:contentDescription="@string/app_theme"
+            android:padding="8dp"
+            android:src="@drawable/background_5" />
+
+        <ImageView
+            android:id="@+id/image_theme_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:contentDescription="@string/app_theme"
+            android:padding="8dp"
+            android:src="@drawable/background_6" />
+
+        <ImageView
+            android:id="@+id/image_theme_7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:contentDescription="@string/app_theme"
+            android:padding="8dp"
+            android:src="@drawable/background_7" />
+
+        <ImageView
+            android:id="@+id/image_theme_8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:contentDescription="@string/app_theme"
+            android:padding="8dp"
+            android:src="@drawable/background_8" />
+
+        <ImageView
+            android:id="@+id/image_theme_9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:contentDescription="@string/app_theme"
+            android:padding="8dp"
+            android:src="@drawable/background_9" />
+
+    </GridLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_to_menu"
+        style="@style/CustomMaterialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background_1"
+        android:text="@string/to_menu"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

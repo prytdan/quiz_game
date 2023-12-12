@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz Game</string>
+    <string name="name">КОСМІЧНИЙ КВІЗ</string>
+    <string name="start_quiz">Почати\nквіз</string>
+    <string name="check_answers">Перевірити відповіді</string>
+    <string name="to_menu">В меню</string>
+    <string name="play_again">Грати знов</string>
+    <string name="correct_answer">Вірна відповідь: %1$s</string>
+    <string name="user_answer">Ваша відповідь: %1$s</string>
+    <string name="results">Результати</string>
+    <string name="app_theme">Тема</string>
+    <string name="check_internet">Упс!\nЗдається є проблеми з підключенням.\nСпробуйте перевірити інтернет і спробувати ще раз.</string>
+    <string name="error_occurred">Виникла помилка. Спробуйте почати квіз знов.</string>
+    <string name="sample_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</string>
+</resources>
